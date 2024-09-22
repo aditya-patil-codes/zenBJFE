@@ -566,40 +566,6 @@ body {
   color: #ff9393;
 }
 
-#bg-color-box {
-  position: absolute;
-  width: 260px;
-  height: 42px;
-  right: 215px;
-  margin-top: 10px;
-  z-index: 200;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#bg-color-box .bg-colors {
-  width: 42px;
-  height: 42px;
-  border-radius: 100%;
-  border: 1px solid black;
-  cursor: pointer;
-}
-#bg-color-box #bg-green {
-  background-color: #265328af;
-}
-#bg-color-box #bg-blue {
-  background-color: #274f55af;
-}
-#bg-color-box #bg-purple {
-  background-color: #293b5aaf;
-}
-#bg-color-box #bg-red {
-  background-color: #582828af;
-}
-#bg-color-box #bg-brown {
-  background-color: #534e26af;
-}
-
 .bg-selected {
   border: 1px solid white !important;
 }
@@ -621,12 +587,6 @@ body {
   cursor: pointer;
   text-align: center;
   z-index: 10;
-  -webkit-user-select: none;
-  /* Safari */
-  -ms-user-select: none;
-  /* IE 10+ and Edge */
-  user-select: none;
-  /* Standard syntax */
 }
 #leave-button i {
   transform: rotate(180deg);
@@ -659,12 +619,6 @@ body {
   cursor: pointer;
   text-align: center;
   z-index: 10;
-  -webkit-user-select: none;
-  /* Safari */
-  -ms-user-select: none;
-  /* IE 10+ and Edge */
-  user-select: none;
-  /* Standard syntax */
 }
 #leave-table i {
   color: lime;
@@ -698,12 +652,6 @@ body {
   text-shadow: 0 0 10px black;
   z-index: 50;
   pointer-events: none;
-  -webkit-user-select: none;
-  /* Safari */
-  -ms-user-select: none;
-  /* IE 10+ and Edge */
-  user-select: none;
-  /* Standard syntax */
 }
 
 .color-green {
@@ -796,8 +744,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 220px; */
-  left: 20px;
+  width: 80px;
+  left: 10px;
   font-family: "Open Sans", sans-serif;
 }
 
